@@ -20,7 +20,7 @@ export default function Home() {
         <section id="about" className="mb-24">
           <div className="flex flex-col md:flex-row gap-8 items-start">
             <div className="flex-1">
-              <h1 className="text-5xl font-bold mb-4">Pritam Singh</h1>
+              <h1 className="text-5xl font-bold mb-4">Pritam Kumar Singh</h1>
               <h2 className="text-2xl text-muted-foreground mb-6">
                 Software Engineering Leader / Developer
               </h2>
