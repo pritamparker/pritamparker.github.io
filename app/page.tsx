@@ -281,139 +281,119 @@ export default function Home() {
         </section>
 
         {/* Skills Section */}
-        <section id="skills" className="mb-24">
-          <div className="flex items-center gap-3 mb-8">
-            <Code className="w-6 h-6 text-primary" />
-            <h2 className="text-3xl font-bold">Skills</h2>
+        <section id="skills" className="mb-32">
+          <div className="flex items-center gap-3 mb-12">
+            <div className="p-2 rounded-lg bg-primary/10">
+              <Code className="w-6 h-6 text-primary" />
+            </div>
+            <h2 className="text-4xl font-bold">Technical Skills</h2>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div>
-              <h3 className="text-lg font-semibold mb-3">Frontend</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="bg-card border border-border rounded-xl p-6 hover:shadow-lg transition-all duration-300">
+              <h3 className="text-lg font-bold mb-4 text-primary">
+                Languages & Databases
+              </h3>
               <div className="flex flex-wrap gap-2">
-                <span className="px-3 py-1 rounded-full bg-primary/10 text-primary text-sm">
-                  ReactJS
-                </span>
-                <span className="px-3 py-1 rounded-full bg-primary/10 text-primary text-sm">
-                  NextJS
-                </span>
-                <span className="px-3 py-1 rounded-full bg-primary/10 text-primary text-sm">
-                  React Native
-                </span>
-                <span className="px-3 py-1 rounded-full bg-primary/10 text-primary text-sm">
-                  JavaScript
-                </span>
-                <span className="px-3 py-1 rounded-full bg-primary/10 text-primary text-sm">
-                  TypeScript
-                </span>
-                <span className="px-3 py-1 rounded-full bg-primary/10 text-primary text-sm">
-                  Angular(2+)
-                </span>
-                <span className="px-3 py-1 rounded-full bg-primary/10 text-primary text-sm">
-                  HTML/CSS
-                </span>
+                {[
+                  "JavaScript",
+                  "TypeScript",
+                  "C",
+                  "C++",
+                  "HTML",
+                  "CSS",
+                  "MongoDB",
+                  "MySQL",
+                ].map((skill) => (
+                  <span
+                    key={skill}
+                    className="px-3 py-1.5 rounded-lg bg-primary/10 text-primary text-sm font-medium"
+                  >
+                    {skill}
+                  </span>
+                ))}
               </div>
             </div>
-            <div>
-              <h3 className="text-lg font-semibold mb-3">Backend</h3>
+            <div className="bg-card border border-border rounded-xl p-6 hover:shadow-lg transition-all duration-300">
+              <h3 className="text-lg font-bold mb-4 text-primary">
+                Frameworks & Libraries
+              </h3>
               <div className="flex flex-wrap gap-2">
-                <span className="px-3 py-1 rounded-full bg-primary/10 text-primary text-sm">
-                  NodeJs
-                </span>
-                <span className="px-3 py-1 rounded-full bg-primary/10 text-primary text-sm">
-                  JavaScript
-                </span>
-                <span className="px-3 py-1 rounded-full bg-primary/10 text-primary text-sm">
-                  SQL
-                </span>
+                {[
+                  "ReactJS",
+                  "React Native",
+                  "NodeJS",
+                  "Express",
+                  "Angular(2+)",
+                  "NextJS",
+                  "Bootstrap",
+                  "Material UI",
+                  "TailwindCSS",
+                  "Ant Design",
+                ].map((skill) => (
+                  <span
+                    key={skill}
+                    className="px-3 py-1.5 rounded-lg bg-primary/10 text-primary text-sm font-medium"
+                  >
+                    {skill}
+                  </span>
+                ))}
               </div>
             </div>
-            <div>
-              <h3 className="text-lg font-semibold mb-3">Frameworks</h3>
+            <div className="bg-card border border-border rounded-xl p-6 hover:shadow-lg transition-all duration-300">
+              <h3 className="text-lg font-bold mb-4 text-primary">Tools</h3>
               <div className="flex flex-wrap gap-2">
-                <span className="px-3 py-1 rounded-full bg-primary/10 text-primary text-sm">
-                  Bootstrap
-                </span>
-                <span className="px-3 py-1 rounded-full bg-primary/10 text-primary text-sm">
-                  Material UI
-                </span>
-                <span className="px-3 py-1 rounded-full bg-primary/10 text-primary text-sm">
-                  Tailwind
-                </span>
-                <span className="px-3 py-1 rounded-full bg-primary/10 text-primary text-sm">
-                  AntD
-                </span>
-                <span className="px-3 py-1 rounded-full bg-primary/10 text-primary text-sm">
-                  HapiJS
-                </span>
+                {["Git", "Bitbucket", "Postman", "Figma", "Jira", "Trello"].map(
+                  (skill) => (
+                    <span
+                      key={skill}
+                      className="px-3 py-1.5 rounded-lg bg-primary/10 text-primary text-sm font-medium"
+                    >
+                      {skill}
+                    </span>
+                  )
+                )}
               </div>
             </div>
-            <div>
-              <h3 className="text-lg font-semibold mb-3">Tools</h3>
+            <div className="bg-card border border-border rounded-xl p-6 hover:shadow-lg transition-all duration-300">
+              <h3 className="text-lg font-bold mb-4 text-primary">Platforms</h3>
               <div className="flex flex-wrap gap-2">
-                <span className="px-3 py-1 rounded-full bg-primary/10 text-primary text-sm">
-                  Git
-                </span>
-                <span className="px-3 py-1 rounded-full bg-primary/10 text-primary text-sm">
-                  GitHub
-                </span>
-                <span className="px-3 py-1 rounded-full bg-primary/10 text-primary text-sm">
-                  Bitbucket
-                </span>
-                <span className="px-3 py-1 rounded-full bg-primary/10 text-primary text-sm">
-                  Postman
-                </span>
-                <span className="px-3 py-1 rounded-full bg-primary/10 text-primary text-sm">
-                  Docker
-                </span>
-                <span className="px-3 py-1 rounded-full bg-primary/10 text-primary text-sm">
-                  Figma
-                </span>
-                <span className="px-3 py-1 rounded-full bg-primary/10 text-primary text-sm">
-                  Jira
-                </span>
-                <span className="px-3 py-1 rounded-full bg-primary/10 text-primary text-sm">
-                  Trello
-                </span>
+                {[
+                  "AWS",
+                  "Docker",
+                  "Firebase",
+                  "Heroku",
+                  "Netlify",
+                  "Vercel",
+                  "Digital Ocean",
+                ].map((skill) => (
+                  <span
+                    key={skill}
+                    className="px-3 py-1.5 rounded-lg bg-primary/10 text-primary text-sm font-medium"
+                  >
+                    {skill}
+                  </span>
+                ))}
               </div>
             </div>
-            <div>
-              <h3 className="text-lg font-semibold mb-3">Platforms</h3>
+            <div className="bg-card border border-border rounded-xl p-6 hover:shadow-lg transition-all duration-300 md:col-span-2">
+              <h3 className="text-lg font-bold mb-4 text-primary">
+                Other Skills
+              </h3>
               <div className="flex flex-wrap gap-2">
-                <span className="px-3 py-1 rounded-full bg-primary/10 text-primary text-sm">
-                  Linux
-                </span>
-                <span className="px-3 py-1 rounded-full bg-primary/10 text-primary text-sm">
-                  Windows
-                </span>
-                <span className="px-3 py-1 rounded-full bg-primary/10 text-primary text-sm">
-                  Raspberry
-                </span>
-                <span className="px-3 py-1 rounded-full bg-primary/10 text-primary text-sm">
-                  AWS
-                </span>
-                <span className="px-3 py-1 rounded-full bg-primary/10 text-primary text-sm">
-                  GCP
-                </span>
-                <span className="px-3 py-1 rounded-full bg-primary/10 text-primary text-sm">
-                  Digital Ocean
-                </span>
-              </div>
-            </div>
-            <div>
-              <h3 className="text-lg font-semibold mb-3">Other Skills</h3>
-              <div className="flex flex-wrap gap-2">
-                <span className="px-3 py-1 rounded-full bg-primary/10 text-primary text-sm">
-                  Leadership
-                </span>
-                <span className="px-3 py-1 rounded-full bg-primary/10 text-primary text-sm">
-                  Time Management
-                </span>
-                <span className="px-3 py-1 rounded-full bg-primary/10 text-primary text-sm">
-                  Strategic Planning
-                </span>
-                <span className="px-3 py-1 rounded-full bg-primary/10 text-primary text-sm">
-                  Agile/Scrum
-                </span>
+                {[
+                  "Technical Leadership & Team Mentoring",
+                  "System Design & Architecture",
+                  "Code Quality & Best Practices",
+                  "Agile/Scrum Methodologies",
+                  "Strategic Planning & Execution",
+                ].map((skill) => (
+                  <span
+                    key={skill}
+                    className="px-3 py-1.5 rounded-lg bg-primary/10 text-primary text-sm font-medium"
+                  >
+                    {skill}
+                  </span>
+                ))}
               </div>
             </div>
           </div>
