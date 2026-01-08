@@ -103,7 +103,7 @@ export default function Home() {
         <section id="experience" className="mb-24">
           <div className="flex items-center gap-3 mb-8">
             <Briefcase className="w-6 h-6 text-primary" />
-            <h2 className="text-3xl font-bold">Experience (9.3 Years)</h2>
+            <h2 className="text-3xl font-bold">Experience (9.5 Years)</h2>
           </div>
           <div className="space-y-8">
             {/* SaveIN */}
