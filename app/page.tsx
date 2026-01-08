@@ -25,13 +25,14 @@ export default function Home() {
                 Software Engineering Leader / Developer
               </h2>
               <p className="text-lg leading-relaxed text-muted-foreground mb-6">
-                Results-driven Software Engineering Leader/Developer with 9+
-                years of experience building scalable mobile and web
-                applications from scratch, leading high-performing teams, and
-                driving product adoption. Seeking to leverage expertise in
-                ReactJS, React Native, Next.js, Nodejs and cloud platforms to
-                deliver user-centric, high-performance digital products while
-                contributing to organizational growth and innovation.
+                Senior Software Developer with 9+ years of experience building
+                and scaling mobile and web applications from the ground up.
+                Experienced in React, React Native, Next.js, Golang, Node.js,
+                and modern system design, with a strong focus on performance,
+                reliability, and clean architecture. Seeking to contribute as a
+                hands-on engineer to build high-impact, user-centric products at
+                scale while continuously growing in system design and
+                distributed systems.
               </p>
               <div className="flex flex-wrap gap-4 mb-6">
                 <div className="flex items-center gap-2 text-muted-foreground">
@@ -108,7 +109,7 @@ export default function Home() {
             {/* SaveIN */}
             <div className="border-l-2 border-primary pl-6 pb-8">
               <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
-                <h3 className="text-xl font-semibold">Frontend Team Lead</h3>
+                <h3 className="text-xl font-semibold">Lead Engineer</h3>
                 <span className="text-sm text-muted-foreground">
                   Sep 2022 - Present
                 </span>
@@ -120,22 +121,36 @@ export default function Home() {
               <p className="text-muted-foreground mb-3">Gurgaon</p>
               <ul className="list-disc list-inside space-y-2 text-muted-foreground">
                 <li>
-                  Revitalized company technology stack: by re-architecting
-                  mobile apps, web portals, and internal admin panels; scaled
-                  monthly loan disbursements from 3–4 crore to 40 crore within
-                  the tenure.
+                  Led the re-architecture of customer and merchant-facing mobile
+                  and web applications, improving scalability, reliability, and
+                  overall user experience; contributed to business growth from
+                  ₹3–4 crore to ~₹40 crore monthly loan disbursements.
                 </li>
                 <li>
-                  Delivered high-impact products: including 2 flagship mobile
-                  applications, 4–5 business-critical web applications, and an
-                  SEO-optimized website, significantly boosting merchant
-                  adoption and online visibility.
+                  Designed and built production-grade React Native and React
+                  applications using TypeScript, Redux, and modular component
+                  architecture, supporting high-traffic customer journeys.
                 </li>
                 <li>
-                  Overhauled infrastructure and security: by restructuring AWS
-                  architecture, implementing VAPT and CICRA compliance, and
-                  streamlining CI/CD pipelines for faster, more secure
-                  deployments.
+                  Owned frontend system design, including state management
+                  patterns, API integration strategies, and performance
+                  optimization for complex flows such as onboarding and loan
+                  applications.
+                </li>
+                <li>
+                  Collaborated closely with backend teams to define clean REST
+                  API contracts, handle edge cases, and ensure graceful error
+                  handling and data consistency.
+                </li>
+                <li>
+                  Improved application performance through lazy loading, code
+                  splitting, render optimization, and API call reduction,
+                  ensuring stability across low-end devices.
+                </li>
+                <li>
+                  Actively participated in production debugging, incident
+                  resolution, and release planning, ensuring high availability
+                  and smooth deployments.
                 </li>
               </ul>
             </div>
