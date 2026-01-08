@@ -297,6 +297,7 @@ export default function Home() {
                 {[
                   "JavaScript",
                   "TypeScript",
+                  "Go",
                   "C",
                   "C++",
                   "HTML",
